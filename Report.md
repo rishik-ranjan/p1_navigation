@@ -8,19 +8,19 @@ Deep Q-Network algorithm is used to solve this problem. The deep network is comp
 
 The hyper parameters chosen for the DQN algorithm are as follows:
 
-BUFFER_SIZE = int(1e5)  # replay buffer size
-BATCH_SIZE = 64         # minibatch size
-GAMMA = 0.99            # discount factor
-TAU = 1e-3              # for soft update of target parameters
-LR = 5e-4               # learning rate 
-UPDATE_EVERY = 4        # how often to update the network
+* BUFFER_SIZE = int(1e5)  # replay buffer size
+* BATCH_SIZE = 64         # minibatch size
+* GAMMA = 0.99            # discount factor
+* TAU = 1e-3              # for soft update of target parameters
+* LR = 5e-4               # learning rate 
+* UPDATE_EVERY = 4        # how often to update the network
 
 Some other hyper parameters are as follows:
-n_episodes = 2000       # maximum number of training episodes
-max_t (int) = 1000      # maximum number of timesteps per episode
-eps_start = 1.0         # starting value of epsilon, for epsilon-greedy action selection
-eps_end = 0.01          # minimum value of epsilon
-eps_decay = 0.995       # multiplicative factor (per episode) for decreasing epsilon
+* n_episodes = 2000       # maximum number of training episodes
+* max_t (int) = 1000      # maximum number of timesteps per episode
+* eps_start = 1.0         # starting value of epsilon, for epsilon-greedy action selection
+* eps_end = 0.01          # minimum value of epsilon
+* eps_decay = 0.995       # multiplicative factor (per episode) for decreasing epsilon
 
 
 ## Plot of Rewards
